@@ -10,7 +10,7 @@ defineConfigSchema("@openmrs/esm-htmlforms", {});
 function Root(props) {
   return (
     <BrowserRouter basename={window["getOpenmrsSpaBase"]()}>
-    <Route path="/home" component={HtmlForms} />
+      <Route path="/home" component={HtmlForms} />
     </BrowserRouter>
   );
 }
@@ -18,6 +18,4 @@ function Root(props) {
 export default openmrsRootDecorator({
   featureName: "HTML Form Entry",
   moduleName: "@openmrs/esm-htmlforms"
-})(
-  Root
-);
+})(Root);

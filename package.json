@@ -58,7 +58,7 @@
     "eslint-config-ts-react-important-stuff": "^1.0.0",
     "eslint-plugin-prettier": "^3.1.0",
     "fork-ts-checker-webpack-plugin": "^1.5.0",
-    "husky": "^3.0.4",
+    "husky": "^3.0.9",
     "identity-obj-proxy": "^3.0.0",
     "jest": "^24.9.0",
     "jest-cli": "^24.9.0",
